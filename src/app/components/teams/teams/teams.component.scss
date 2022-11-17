@@ -1,10 +1,14 @@
 @import "src/styles";
 
 .page-wrapper {
-    width: 15%;
+    width: 20%;
     max-width: 750px;
   }
 
+  .page-title {
+    color: greenyellow;
+  }
+  
   .button-wrapper {
     margin: 5px;
   }
