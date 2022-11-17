@@ -11,7 +11,7 @@ import { TeamsService } from 'src/app/services/teams.service';
 export class TeamsComponent implements OnInit {
   teams: TeamInterface[] = [];
 
-  // This is just test data of type TeamInterface to render. Get all teams from DB in this way.
+  // This is just test data of type TeamInterface to render. Get all teams from DB in this way as array of objects.
   teamsArray: TeamInterface[] = [
     {
       id: 1,
