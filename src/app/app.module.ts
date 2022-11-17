@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatchResultsComponent } from './components/results/match-results/match-results.component';
+import { TeamsComponent } from './components/teams/teams/teams.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MatchResultsComponent,
+    TeamsComponent,
   ],
   imports: [
     BrowserModule,
