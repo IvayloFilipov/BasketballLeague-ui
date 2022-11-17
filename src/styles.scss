@@ -16,7 +16,7 @@ html, body {
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .page-wrapper {
-    min-width: 240px;
+    min-width: 10%;
     margin: 32px auto;
     padding: 16px;
     border: 2px solid $txt-color;
@@ -30,3 +30,39 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     text-align: center;
   }
 
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header {
+    background-color: $main-color;
+    padding: 1em 0;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a.logo {
+      font-weight: bold;
+    }
+
+    nav {
+      float: right;
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+
+        li a {
+          padding: 1em;
+
+          &:hover {
+            background: darken($main-color, 25%);
+          }
+        }
+      }
+    }
+  }

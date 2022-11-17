@@ -1,1 +1,19 @@
-<p>match-results works!</p>
+<h1 class="page-title"><b>List of all match results</b></h1>
+
+<div class="page-wrapper">
+    <table class="authors-table">
+        <tr>
+            <th>No.</th>
+            <th>Home team</th>
+            <th>Away team</th>
+            <th>Score</th>
+        </tr>
+
+        <tr *ngFor="let team of teamsScore; index as i">
+            <td>{{ i + 1 }}</td>
+            <td>{{ team.homeTeam }}</td>
+            <td>{{ team.awayTeam }}</td>
+            <td>{{ team.homeScore }} : {{ team.awayScore }}</td>
+        </tr>
+    </table>
+</div>
