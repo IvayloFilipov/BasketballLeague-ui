@@ -9,7 +9,7 @@ import { TeamsComponent } from './components/teams/teams/teams.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BestOffensiveTeamsComponent } from './components/topFiveOffensive/best-offensive-teams.component';
 import { BestDefensiveTeamsComponent } from './components/topFiveDefensive/best-defensive-teams.component';
-
+import { HighlightMatchComponent } from './components/highlightMatch/highlight-match.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +18,7 @@ import { BestDefensiveTeamsComponent } from './components/topFiveDefensive/best-
     TeamsComponent,
     BestOffensiveTeamsComponent,
     BestDefensiveTeamsComponent,
+    HighlightMatchComponent,
   ],
   imports: [
     BrowserModule,

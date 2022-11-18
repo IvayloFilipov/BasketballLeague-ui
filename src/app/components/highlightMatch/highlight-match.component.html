@@ -1,0 +1,21 @@
+<h1 class="page-title"><b>The highlight match (most points scored on a single match by both teams)</b></h1>
+
+<div class="page-wrapper">
+    <table class="authors-table">
+        <tr>
+            <th>No.</th>
+            <th>Home team</th>
+            <th>Away team</th>
+            <th>Score</th>
+            <th>Total points</th>
+        </tr>
+
+        <tr *ngFor="let team of teamsScore; index as i">
+            <td>{{ i + 1 }}</td>
+            <td>{{ team.homeTeam }}</td>
+            <td>{{ team.awayTeam }}</td>
+            <td>{{ team.homeScore }} : {{ team.awayScore }}</td>
+            <td>{{ team.totalScores }}</td>
+        </tr>
+    </table>
+</div>
