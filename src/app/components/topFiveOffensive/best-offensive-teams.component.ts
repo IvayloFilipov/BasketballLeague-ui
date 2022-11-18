@@ -8,7 +8,7 @@ import { BestOffensiveTeamsService } from 'src/app/services/best-offensive-teams
   styleUrls: ['./best-offensive-teams.component.scss']
 })
 export class BestOffensiveTeamsComponent implements OnInit {
-  bestTeams: BestOffensiveTeamsInterface[] = [];
+  bestOffensive: BestOffensiveTeamsInterface[] = [];
   
   // This is just test data of type BestOffensiveTeamsInterface to render. Get all teams from DB in this way as array of objects.
   bestOffensiveTeams: BestOffensiveTeamsInterface[] = [
@@ -43,7 +43,7 @@ export class BestOffensiveTeamsComponent implements OnInit {
 
   ngOnInit(): void {
     this.bestOffensiveTeamsService.getBestOffensiveTeams().subscribe((bestTeams: BestOffensiveTeamsInterface[]) => {
-      this.bestTeams = bestTeams;
+      this.bestOffensive = bestTeams;
     })
   }
 

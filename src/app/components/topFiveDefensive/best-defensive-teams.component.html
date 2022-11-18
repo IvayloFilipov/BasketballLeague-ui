@@ -1,0 +1,17 @@
+<h1 class="page-title"><b>List of Top 5 Best defensive teams (teams whose opponents scored the smallest number of points, home and away combined)</b></h1>
+
+<div class="page-wrapper">
+    <table class="authors-table">
+        <tr>
+            <th>No.</th>
+            <th>Team name</th>
+            <th>Top score</th>
+        </tr>
+
+        <tr *ngFor="let team of bestDefensiveTeams; index as i">
+            <td>{{ i + 1 }}</td>
+            <td>{{ team.name }}</td>
+            <td>{{ team.minScore }}</td>
+        </tr>
+    </table>
+</div>

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MatchResultsComponent } from './components/results/match-results/match-results.component';
 import { TeamsComponent } from './components/teams/teams/teams.component';
+import { BestDefensiveTeamsComponent } from './components/topFiveDefensive/best-defensive-teams.component';
 import { BestOffensiveTeamsComponent } from './components/topFiveOffensive/best-offensive-teams.component';
 
 const routes: Routes = [
@@ -19,6 +20,10 @@ const routes: Routes = [
     path: 'get-top-offensive',
     component: BestOffensiveTeamsComponent,
   },
+  {
+    path: 'get-top-defensive',
+    component: BestDefensiveTeamsComponent,
+  }
 ];
 
 @NgModule({
