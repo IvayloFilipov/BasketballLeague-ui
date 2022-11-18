@@ -8,7 +8,7 @@ import { BestOffensiveTeamsInterface } from '../interfaces/best-offensive-teams'
   providedIn: 'root'
 })
 export class BestOffensiveTeamsService {
-  private readonly apiUrl = `${environment.apiUrl}offensive`;
+  private readonly apiUrl = `${environment.apiUrl}teams`;
   
   constructor(private http: HttpClient) { }
 
