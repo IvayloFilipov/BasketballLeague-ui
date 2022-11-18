@@ -8,7 +8,7 @@ import { MatchResultsComponent } from './components/results/match-results/match-
 import { TeamsComponent } from './components/teams/teams/teams.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BestOffensiveTeamsComponent } from './components/topFiveOffensive/best-offensive-teams.component';
-
+import { BestDefensiveTeamsComponent } from './components/topFiveDefensive/best-defensive-teams.component';
 
 
 @NgModule({
@@ -17,6 +17,7 @@ import { BestOffensiveTeamsComponent } from './components/topFiveOffensive/best-
     MatchResultsComponent,
     TeamsComponent,
     BestOffensiveTeamsComponent,
+    BestDefensiveTeamsComponent,
   ],
   imports: [
     BrowserModule,
