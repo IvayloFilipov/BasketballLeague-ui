@@ -8,7 +8,7 @@ import { HighlightMatchInterface } from '../interfaces/highlight-match';
   providedIn: 'root'
 })
 export class HighlightMatchService {
-  private readonly apiUrl = `${environment.apiUrl}match-results`;
+  private readonly apiUrl = `${environment.apiUrl}matches`;
 
   constructor(private http: HttpClient) { }
 

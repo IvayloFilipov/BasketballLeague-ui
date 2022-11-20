@@ -8,7 +8,7 @@ import { MatchResultsInterface } from '../interfaces/match-results';
   providedIn: 'root'
 })
 export class MatchResultsService {
-  private readonly apiUrl = `${environment.apiUrl}match-results`;
+  private readonly apiUrl = `${environment.apiUrl}matches`;
 
   constructor(private http: HttpClient) { }
 
