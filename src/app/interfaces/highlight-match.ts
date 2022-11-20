@@ -3,5 +3,5 @@ export interface HighlightMatchInterface {
     awayTeam: string;
     homeScore: number;
     awayScore: number;
-    totalScores: number;
+    totalPoints: number;
 }

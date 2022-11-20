@@ -15,27 +15,27 @@ export class BestOffensiveTeamsComponent implements OnInit {
   //   {
   //     id: 1,
   //     name: 'Kaspichan',
-  //     maxScore: 1555
+  //     TotalPoints: 1555
   //   },
   //   {
   //     id: 2,
   //     name: 'Plovdiv',
-  //     maxScore: 1350
+  //     TotalPoints: 1350
   //   },
   //   {
   //     id: 3,
   //     name: 'Varna',
-  //     maxScore: 1300
+  //     TotalPoints: 1300
   //   },
   //   {
   //     id: 4,
   //     name: 'Burgas',
-  //     maxScore: 1250
+  //     TotalPoints: 1250
   //   },
   //   {
   //     id: 5,
   //     name: 'Sofia',
-  //     maxScore: 1155
+  //     TotalPoints: 1155
   //   },
   // ];
 

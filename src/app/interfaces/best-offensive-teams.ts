@@ -1,4 +1,4 @@
 export interface BestOffensiveTeamsInterface {
     name: string;
-    maxScore: number;
+    totalPoints: number;
 }
