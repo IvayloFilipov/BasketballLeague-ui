@@ -12,20 +12,20 @@ export class TeamsComponent implements OnInit {
   teams: TeamInterface[] = [];
 
   // This is just test data of type TeamInterface to render. Get all teams from DB in this way as array of objects.
-  teamsArray: TeamInterface[] = [
-    {
-      id: 1,
-      name: 'Sofia'
-    },
-    {
-      id: 2,
-      name: 'Plovdiv'
-    },
-    {
-      id: 3,
-      name: 'Varna'
-    }
-  ];
+  // teamsArray: TeamInterface[] = [
+  //   {
+  //     id: 1,
+  //     name: 'Sofia'
+  //   },
+  //   {
+  //     id: 2,
+  //     name: 'Plovdiv'
+  //   },
+  //   {
+  //     id: 3,
+  //     name: 'Varna'
+  //   }
+  // ];
 
   constructor(private teamsService: TeamsService) { }
 

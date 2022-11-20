@@ -9,11 +9,11 @@
             <th>Score</th>
         </tr>
 
-        <tr *ngFor="let team of teamsScore; index as i">
+        <tr *ngFor="let score of scores; index as i">
             <td>{{ i + 1 }}</td>
-            <td>{{ team.homeTeam }}</td>
-            <td>{{ team.awayTeam }}</td>
-            <td>{{ team.homeScore }} : {{ team.awayScore }}</td>
+            <td>{{ score.homeTeam }}</td>
+            <td>{{ score.awayTeam }}</td>
+            <td>{{ score.homeScore }} : {{ score.awayScore }}</td>
         </tr>
     </table>
 </div>
