@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HighlightMatchComponent } from './components/highlightMatch/highlight-match.component';
 import { MatchResultsComponent } from './components/results/match-results/match-results.component';
+import { TeamsASCComponent } from './components/teams-asc/teams-asc.component';
+import { TeamsDescComponent } from './components/teams-desc/teams-desc.component';
 import { TeamsComponent } from './components/teams/teams/teams.component';
 import { BestDefensiveTeamsComponent } from './components/topFiveDefensive/best-defensive-teams.component';
 import { BestOffensiveTeamsComponent } from './components/topFiveOffensive/best-offensive-teams.component';
@@ -12,6 +14,14 @@ const routes: Routes = [
   {
     path: 'get-teams',
     component: TeamsComponent,
+  },
+  {
+    path: 'get-teams-asc',
+    component: TeamsASCComponent,
+  },
+  {
+    path: 'get-teams-desc',
+    component: TeamsDescComponent,
   },
   {
     path: 'get-results',

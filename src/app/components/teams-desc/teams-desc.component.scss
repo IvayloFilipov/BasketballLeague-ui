@@ -1,0 +1,29 @@
+@import "src/styles";
+
+.page-wrapper {
+    width: 20%;
+    max-width: 750px;
+  }
+
+  .page-title {
+    color: greenyellow;
+    backdrop-filter: blur(55px);
+  }
+  
+  .button-wrapper {
+    margin: 5px;
+  }
+
+  .btn:hover {
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    width: max-content;
+    cursor: pointer;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 1rem 1.5rem;
+  }

@@ -15,4 +15,12 @@ export class TeamsService {
   getAllTeams(): Observable<TeamInterface[]> {
     return this.http.get<TeamInterface[]>(`${this.apiUrl}/get-teams`);
   }
+
+  getAllTeamsASC(): Observable<TeamInterface[]> {
+    return this.http.get<TeamInterface[]>(`${this.apiUrl}/get-teams-asc`);
+  }
+
+  getAllTeamsDESC(): Observable<TeamInterface[]> {
+    return this.http.get<TeamInterface[]>(`${this.apiUrl}/get-teams-desc`);
+  }
 }

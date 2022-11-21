@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { BestOffensiveTeamsComponent } from './components/topFiveOffensive/best-offensive-teams.component';
 import { BestDefensiveTeamsComponent } from './components/topFiveDefensive/best-defensive-teams.component';
 import { HighlightMatchComponent } from './components/highlightMatch/highlight-match.component';
+import { TeamsASCComponent } from './components/teams-asc/teams-asc.component';
+import { TeamsDescComponent } from './components/teams-desc/teams-desc.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { HighlightMatchComponent } from './components/highlightMatch/highlight-m
     BestOffensiveTeamsComponent,
     BestDefensiveTeamsComponent,
     HighlightMatchComponent,
+    TeamsASCComponent,
+    TeamsDescComponent,
   ],
   imports: [
     BrowserModule,
