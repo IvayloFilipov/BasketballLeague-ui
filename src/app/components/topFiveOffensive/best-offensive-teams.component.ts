@@ -13,29 +13,24 @@ export class BestOffensiveTeamsComponent implements OnInit {
   // This is just test data of type BestOffensiveTeamsInterface to render. Get all teams from DB in this way as array of objects.
   // bestOffensiveTeams: BestOffensiveTeamsInterface[] = [
   //   {
-  //     id: 1,
   //     name: 'Kaspichan',
-  //     TotalPoints: 1555
+  //     totalPoints: 1555
   //   },
   //   {
-  //     id: 2,
   //     name: 'Plovdiv',
-  //     TotalPoints: 1350
+  //     totalPoints: 1350
   //   },
   //   {
-  //     id: 3,
   //     name: 'Varna',
-  //     TotalPoints: 1300
+  //     totalPoints: 1300
   //   },
   //   {
-  //     id: 4,
   //     name: 'Burgas',
-  //     TotalPoints: 1250
+  //     totalPoints: 1250
   //   },
   //   {
-  //     id: 5,
   //     name: 'Sofia',
-  //     TotalPoints: 1155
+  //     totalPoints: 1155
   //   },
   // ];
 

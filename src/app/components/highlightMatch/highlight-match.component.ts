@@ -13,7 +13,6 @@ export class HighlightMatchComponent implements OnInit {
   // This is just test data of type HighlightMatchInterface to render. Get all scores from DB in this way as array of ONE object.
   // teamsScore: HighlightMatchInterface[] = [
   //   {
-  //     id: 1,
   //     homeTeam: 'Sofia',
   //     awayTeam: 'Plovdiv',
   //     homeScore: 125,
