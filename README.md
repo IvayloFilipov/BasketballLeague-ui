@@ -1,27 +1,38 @@
-# Frontend
+# BasketballLeague-ui
+Frontend part of the application is created with Angular 14 & TypeScript
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+ **ABOUT the project:**
+ 
+ ------------
+ 
+ - *"BasketballLeague-api" is an online application to store the results of a basketball league.*
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ ------------
+ 
+## **Technologies Used**
 
-## Code scaffolding
+This application is designed by using the **main** technologies below:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   1) **[Angular 14](https://angular.io/guide/releases)**
+   2) **[TypeScript](https://www.typescripttutorial.net/)**
+   3) **[HTML5](https://en.wikipedia.org/wiki/HTML)**
+   4) **[CSS](https://www.w3schools.com/css/css_intro.asp)**
+   
+## **Tools Used**
+   1) **[Visual Studio Code](https://code.visualstudio.com/)**
 
-## Build
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Authors
+[IvayloFilipov](https://github.com/IvayloFilipov/MyLibrary-ui)
 
-## Running unit tests
+- LinkedIn: [Ivaylo Filipov](https://www.linkedin.com/in/ivaylo-filipov-44149420b/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+------------
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### The application has been created solely for educational purpose.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+------------
